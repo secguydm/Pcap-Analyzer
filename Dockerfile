@@ -1,4 +1,4 @@
-FROM python:3.12.0a5-slim
+FROM python:3.13.0a6-slim
 EXPOSE 8000
 
 VOLUME /home/dj/PCAP /var/log/gunicorn /home/dj/Files/PDF \
